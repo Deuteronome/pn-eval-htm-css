@@ -1,5 +1,126 @@
+@font-face {
+    font-family: "yoyo";
+    src: url("../style/eval1.otf");
+}
+
+
 *{
     margin : 0;
     padding : 0;
     box-sizing: border-box;
+}
+
+nav {
+
+    height: 100vh;
+    width: 20vw;
+    background-color: black;
+    float: left;
+    position: fixed;
+
+}
+
+a {
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(216, 189, 79);
+    margin-left: 30px;
+    width: 15vw;
+    height: 3vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    transition: 0.2s;
+
+}
+
+a:hover {
+
+    background-color: rgb(44, 44, 44);
+    border-color: rgb(216, 189, 79);
+    box-shadow: rgb(94, 83, 41) 5px 5px 10px 0px;
+    transition: 0.2s;
+    transform: translate3d(10px, 10px, 0px);
+}
+
+
+#titre {
+
+    color: rgb(216, 189, 79);
+    text-align: center;
+    font-family: "yoyo";
+    
+
+}
+
+h1 {
+
+
+    color: rgb(216, 189, 79);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;
+    padding-bottom: 50px;
+    margin-right: 29vw;
+
+}
+
+main {
+
+    position:relative;
+    left : 20vw;
+
+}
+
+body {
+
+    height: 100vh;
+    width: 78vw;
+    
+
+}
+
+.article {
+
+    border: solid 1px;
+    box-shadow: rgb(0, 0, 0) 5px 5px 10px 0px;
+    width: 50vw;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-left: 30px;
+    padding: 12px;
+    flex-direction: column;
+    
+}
+
+.panel {
+
+    width: 78vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.group {
+
+margin-left: 60px;
+
+}
+
+
+p {
+
+    margin-bottom: 15px;
+
 }
