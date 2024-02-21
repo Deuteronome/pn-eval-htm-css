@@ -3,3 +3,81 @@
     padding : 0;
     box-sizing: border-box;
 }
+
+header {
+    text-align: center;
+    color: rgb(255, 157, 0);
+    
+}
+
+article {
+    
+    position: relative;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0);
+    padding: 10px;
+    left: 33%;
+    width: 50%;
+    margin: 10px;
+    
+
+}
+
+nav{
+    position: fixed;
+    top: 0vh;
+    z-index: 10;
+    height: 100vh;
+    width: 20vw;
+    left : 0vw;
+    color: #000000;
+    background-image: url(../asset/images/flou-luxe-abstrait-degrade-gris-fonce-noir-utilise-comme-mur-studio-arriere-plan-pour-afficher-vos-produits_1258-66984.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition : transform 10s
+
+}
+
+footer {
+    position: absolute;
+    width: 60vw;
+    z-index: 10;
+    bottom: 0;
+    top: 8vw;
+    left: 85vw;
+    height: 2vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texte2 {
+    
+    position: relative;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0);
+    padding: 10px;
+    top: 90%;
+    left: 60%;
+    width: 39%;
+    margin: 10px;
+    
+
+}
+
+.photo {
+    position: absolute;
+    width: 60vw;
+    z-index: 10;
+    bottom: 0;
+    top: 30vw;
+    left: 35vw;
+    height: 2vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
