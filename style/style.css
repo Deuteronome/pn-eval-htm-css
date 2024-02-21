@@ -3,3 +3,115 @@
     padding : 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'eval';
+    src: url('./eval1.otf');
+}
+
+.titlePage {
+    text-align: center;
+    width: 75vw;
+}
+
+.imageNav{
+    width: 20vw;
+}
+
+nav {
+    text-decoration: none;
+    font-family: 'eval';
+    position: fixed;    
+    width : 25vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+
+.button {
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    font-size: 4vh;
+    display: block;
+    text-decoration: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15vw; /* Réglage de la largeur pour l'extension */
+    text-align: center;
+    height: 4vh; /* Réglage de la hauteur */
+    font-family: 'eval';
+    transition: background-color 1s, color 2s;
+}
+
+.button:hover {
+    background-color: rgba(100, 100, 100, 0.711);
+    color: rgb(20, 18, 18);
+    box-shadow: 2px 2px 5px 0 red;
+}
+
+
+.navTitle {
+    color:rgb(255, 0, 0);
+    font-size: 30px;
+    font-family: 'eval';
+    text-align: center;
+    width: 60%;
+}
+
+.containerUn {
+    position: fixed;
+    top: 10vh; 
+    left: 50vh; 
+    width: 40%; 
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    font-family: 'eval';
+}
+
+.containerDeux {
+    position:fixed;
+    bottom: 20px; 
+    right: 20px; 
+    width: 40%; 
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Ombre légère */
+    font-family: 'eval';
+}
+.imageTopRight {
+    position: fixed;
+    top: 5vw;
+    right:4vw;
+    width: 30vw; 
+}
+
+.imageBottomLeft {
+    position: fixed;
+    bottom: 6vw;
+    left: 26vw;
+    width: 30vw;
+    height: 30vh;
+}
+
+.img-pn{
+
+    width: 100%;
+    height: auto;
+}
+
+#titlePn {
+    color: red; 
+    text-align: center; 
+    position: fixed; 
+    top: 1vw; 
+    width: 75vw; 
+    margin-top: 0; 
+    padding: 10px 0; 
+    background-color: white;
+    right: 0;
+    font-family: 'eval';
+}
