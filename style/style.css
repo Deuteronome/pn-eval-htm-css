@@ -3,3 +3,48 @@
     padding : 0;
     box-sizing: border-box;
 }
+
+nav {
+    width: 20vw;
+    position: fixed;
+    height: 100vh;
+    background-color: black;
+}
+
+#titre {
+    color: yellow;
+    text-align: center;
+}
+
+a {
+    background-color: rgb(45, 43, 37);
+    color: yellow;
+    margin-left: 30px;
+    width: 15vw;
+    height: 3vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    display:flex ;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+main{
+    width: 80vw;
+    position: relative;
+    left: 20vw;
+
+}
+
+h1{
+    color: yellow;
+}
+
+.col-size{
+
+    background-color: #fff;
+    box-shadow: inset rgb(93, 93, 93) 0 3px 5px 0, rgb(93, 93, 93) 0px 5px 7px 0;
+    
+
+}
