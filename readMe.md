@@ -1,7 +1,7 @@
 # Consigne pour l'éval :
 
-Votre nom : 
-Date de l'éval :
+Votre nom : lyderic
+Date de l'éval : 20 février 2024
 
 ## Avant toute chose :
 

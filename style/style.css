@@ -1,5 +1,94 @@
+@font-face {
+    font-family: 'MaPolice';
+    src: url('/style/eval1.otf') format('otf');
+}
+
 *{
     margin : 0;
     padding : 0;
     box-sizing: border-box;
+    font-family:'MaPolice', Courier, monospace;
+}
+body > div{
+    display: flex;
+}
+body > div > section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75vw;
+    background-color: #000000;
+    color: #ffd700;
+}
+/* IMAGE ET LEGENDE */
+body > div > section > figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3vw 0;
+}
+section > figure > img{
+    width: 75%;
+}
+figure > figcaption{
+    text-align: center;
+    font-size: larger;
+    width: 75%;
+}
+figure > figcaption > h2{
+    font-size: x-large;
+}
+figcaption > h1, figcaption > h2{
+    text-shadow: -2px -1px #ffd700;
+}
+/* MENU DE NAVIGATION */
+div > section > nav{
+    display: flex;
+    height: 50vh;
+    width: 15vw;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-size: large;
+}
+div > section > nav > a{
+    padding: 10px;
+    text-decoration: none;
+    color: #ffd700;
+    transition: 150ms;
+}
+div > section > nav > a:hover{
+    background-color: #313131;
+    border-radius: 10px;
+    box-shadow: 1px 2px 0 1px #ffd700;
+}
+/* CONTENU PRINCIPAL */
+main > header{
+    padding: 3vw 0;
+}
+main > header > h1{
+    color: #ffd700;
+    text-align: center;
+}
+#article1, #article2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 1vw;
+    margin: 2vh 0;
+}
+#article1 > article, #article2 > article{
+    box-shadow: 3px 3px 5px 2px #000000;
+    height: 60%;
+    margin: 0 2vw;
+}
+#article1 > img, #article2 > img{
+    width: 130%;
+}
+/*MAIN - ARTICLE 2*/
+#article2 > article{
+    order: 1;
+}
+#article2 > img{
+    margin: 0 2vw;
 }
