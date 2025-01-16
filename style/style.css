@@ -1,5 +1,101 @@
-*{
-    margin : 0;
-    padding : 0;
-    box-sizing: border-box;
+.left-sidebar {
+    background-color: #777272;
+    color: #000000;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0;
+    padding: 40px;
 }
+
+.main-content {
+    margin-left: 220px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-box {
+    background-color: #777272;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-box {
+    margin-top: 20px; 
+    margin-right: 400px;
+}
+
+.right-box {
+    margin-top: 40px;  
+    margin-left: 400px;
+}
+
+.text-image {
+    max-width: 60%;
+    max-height: 200px;
+    margin-right: 40px; 
+}
+
+#logo {
+    height: 25%;
+}
+
+#SideBouton {
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center ;
+}
+
+main {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    color: #000000;
+}
+
+#titre {
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+}
+#SideBouton button {
+    background-color: #373b37; 
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 25px 0;
+    border-radius: 12px;
+  }
+  
+  #SideBouton button:hover {
+    background-color: #292424;
+  }
+
+  #titre {
+    text-align: center;
+    margin-top: 20px;   
+    font-weight: bold; 
+    color: #000000;      
+  }
+  
