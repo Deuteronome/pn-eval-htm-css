@@ -12,10 +12,11 @@ width: 10vw;
 
 
 #photo1{
-  max-width: 20%;
-margin-top: 1.5px;
+  max-width: 25vw;
+margin-top: 10vh;
 float:right;
-margin: right 2px; 
+margin: right 10px; 
+margin-left: 5vh;
 }
 
 
@@ -31,9 +32,12 @@ nav{
 
 
 article{
-    
- box-shadow: 2px 2px 5px 0;
-    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+
+    padding: 15px;
     margin-bottom: 10px;
     transition: transform 1000ms;
 }
@@ -78,11 +82,46 @@ h2{
     display: flex;
     justify-content: center;
     align-items: start;
-    flex-direction: row;
+    flex-direction:row;
 
 
 }
 main{
 display: flex;
 flex-direction: column;
+}
+.grand1{
+     display:flex;
+     flex-direction: column;
+    box-shadow: 2px 2px 7px 0;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.pto{
+justify-content: center;
+padding: 10px;
+}
+
+p{
+    padding: 15px;
+
+}
+
+#photo2{
+
+    max-width: 25vw;
+    margin-top: 10vh;
+    float:right;
+    margin: right 10px; 
+    margin-left: 5vh;
+
+}
+
+.grand2{
+     display:flex;
+     flex-direction: column;
+    box-shadow: 2px 2px 7px 0;
+    justify-content: center;
+    padding-left: 10px;
 }
