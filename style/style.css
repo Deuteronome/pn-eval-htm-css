@@ -25,6 +25,11 @@ h1 {
     color: gold;
     font-size: 2rem;
     font-family: "police-eval";
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    padding-top: 50px;
+
 }
 
 h2 {
@@ -42,9 +47,11 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    box-shadow: black 2px 2px 5px 0;
-
+    align-items: start;
+    box-shadow: black 2px 2px 5px 1px;
+    width: 65%;
+    height: 35%;
+    margin-bottom: 30px;
 }
 
 nav {
@@ -54,10 +61,7 @@ nav {
     background-color: black;
     height: 100vh;
     width: 20%;
-    
-
-   
-
+    font-family: "police-eval";
 }
 
 #navbar {
@@ -67,7 +71,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     height: 50vh;
-
+    font-family: "police-eval";
 }
  
 .nav-button {
@@ -75,7 +79,8 @@ nav {
     color: gold;
     display: block;
     transition: background-color 500ms, color 1000ms, border 1000ms;
-    border-radius: 10px;
+    border-radius: 15px;
+    font-family: "police-eval";
    
 }
 
@@ -87,4 +92,32 @@ nav {
 
 a {
     text-decoration: none;
+}
+
+#photo1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    max-width: 100%;
+    width: 25%;
+    height: 20%;
+}
+
+#page {
+    display: flex;
+    flex-direction: row;
+}
+
+#rangement {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+p {
+    margin: 5px;
+    padding: px;
+    font-size: 1rem;
 }
