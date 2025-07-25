@@ -2,122 +2,136 @@
     font-family: "police-eval";
     src: url("./eval1.otf");
 }
-
 *{
     margin : 0;
     padding : 0;
     box-sizing: border-box;
-
-
-}
-
-#logo{
-    width: 200px;
-    display: block;
-    padding-top: 5%;
-}
-
-body {
-
-    font-family: "police-eval";
-}
-h1 {
-    color: gold;
-    font-size: 2rem;
-    font-family: "police-eval";
-    display: flex;
-    flex-direction: row;
-    margin-left: 100px;
-    padding-top: 50px;
-
-}
-
-h2 {
-    color: gold;
-    font-size: 1.5rem;
-    font-family: "police-eval";
-    display: block;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    
 }
 
 
-#article1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
-    box-shadow: black 2px 2px 5px 1px;
-    width: 65%;
-    height: 35%;
-    margin-bottom: 30px;
-}
+    #logo {
+        width: 200px;
+        display: block;
+        padding-top: 5%;
+    }
 
-nav {
-    display: flex;
-    flex-direction: column;
-    padding: 5%;
-    background-color: black;
-    height: 100vh;
-    width: 20%;
-    font-family: "police-eval";
-}
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        background-color: black;
+        height: 100vh;
+        width: 20%;
 
-#navbar {
-    color: gold;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 50vh;
-    font-family: "police-eval";
-}
- 
+    }
+
+    #nav-bar {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 50vh;
+    }
+
 .nav-button {
-    font-size: 1.5rem;
+font-size: 1,5rem;
+color: gold;
+
+    }
+
+    .nav-button:hover{
+        background-color: black ;
+        color: gold;
+        border: solid color();
+        box-shadow: 5px 5px 15px 0px;
+    }
+#photo1{
+    max-width:20vw;
+    margin-top: 1,5px;
+    float: right;
+    margin: right 2px;
+    margin-left: 5vh;
+
+}
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: transform 1000ms;
+
+}
+#photo2{
+    width: 20vw;
+    margin-top: 10vh;
+    float: right;
+    margin: right 10px;
+    margin-left: 10px;
+    padding-right: 30px;
+    
+    
+}
+
+h2{
     color: gold;
-    display: block;
-    transition: background-color 500ms, color 1000ms, border 1000ms;
-    border-radius: 15px;
-    font-family: "police-eval";
-   
 }
 
-.nav-button:hover {
-    background-color: var(grey);
-    color: var(gold);
-    border: solid var(gold) 2px;
-}
+#rangement{
+    position: relative;
 
-a {
-    text-decoration: none;
-}
-
-#photo1 {
+    width: 100vw;
     display: flex;
+    justify-content: center;
+    align-items: start;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: end;
-    max-width: 100%;
-    width: 25%;
-    height: 20%;
-}
 
-#page {
+}
+main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-#rangement {
+.grand-lille{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    box-shadow: 2px 2px 7px 0px;
+}
+#grand-lille2{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
+    box-shadow: 2px 2px 7px 0px;
+    padding-left: 10px;
+    height: 50 vh
 }
 
-p {
-    margin: 5px;
-    padding: px;
-    font-size: 1rem;
+h1{
+    display: flex;
+    flex-direction: center;
+    color: gold;
+    padding-left: 35%;
+    font-family: "police-eval";
+}
+
+p{
+    margin-bottom: 20px;
+    font-family: "police-eval";
+    font-size: 1.1rem;
+}
+
+.img{
+  width: 150px;
+  height: auto;
+}
+
+a{
+    text-decoration: none;
 }
