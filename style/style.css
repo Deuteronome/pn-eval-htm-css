@@ -36,8 +36,9 @@
     }
 
 .nav-button {
-font-size: 1,5rem;
+font-size: 1,7rem;
 color: gold;
+font-family: "police-eval";
 
     }
 
@@ -45,7 +46,7 @@ color: gold;
         background-color: black ;
         color: gold;
         border: solid color();
-        box-shadow: 5px 5px 15px 0px;
+        box-shadow: 10px 10px 10px 0px;
     }
 #photo1{
     max-width:20vw;
@@ -79,6 +80,7 @@ article{
 
 h2{
     color: gold;
+    font-family: "police-eval";
 }
 
 #rangement{
@@ -110,7 +112,6 @@ main{
     align-items: center;
     box-shadow: 2px 2px 7px 0px;
     padding-left: 10px;
-    height: 50 vh
 }
 
 h1{
@@ -119,6 +120,8 @@ h1{
     color: gold;
     padding-left: 35%;
     font-family: "police-eval";
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 p{
