@@ -1,5 +1,88 @@
-*{
-    margin : 0;
-    padding : 0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 260px;
+    min-height: 100vh;
+    background: black;
+    color: yellow;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.sidebar img {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.sidebar h2 {
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+    line-height: 1.4;
+}
+
+.sidebar button {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 12px;
+    border: 1px solid #d4af3799;
+    background: transparent;
+    color: #d4af37;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sidebar button:hover {
+    background: #d4af3720;
+    transform: translateX(5px);
+}
+
+.content {
+    flex: 1;
+    padding: 60px;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 50px;
+    color: #e3a722;
+}
+
+.card {
+    width: 75%;
+    margin: 40px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 25px whitesmoke;
+    position: relative;
+}
+
+.card::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -55px;
+    height: 55px;
+    background: inherit;
+    border-radius: 12px;
+    transform: scaleY(-1);
+    opacity: 0.20;
 }
